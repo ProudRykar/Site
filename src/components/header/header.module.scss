@@ -1,0 +1,32 @@
+.header {
+  position: sticky;
+  top: 0;
+  min-width: 310px;
+  min-height: 50px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 20px 10px 20px;
+  background-color: #013320;
+  @media screen and (max-width: 600px) {
+    min-width: 100vw;
+}
+.container{
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  justify-content: left;
+  align-items: center;
+}
+
+.headerText{
+  margin-left: 20px;
+  color: #bbbbbb;
+}
+
+}

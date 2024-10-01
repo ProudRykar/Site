@@ -1,0 +1,38 @@
+@use "./reset.scss";
+@use "./ui-kit.scss" as kit;
+
+html {
+  // scrollbar-color: vars.$main_color-dark transparent;
+  scrollbar-width: none;
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  background-color: #212121;
+  font-weight: 500;
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: 1px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+svg, img {
+  display: block;
+}
+
+button {
+  flex-shrink: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
